@@ -1,0 +1,39 @@
+.hidden{
+    display: none;
+}
+
+.menuvisible{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(35, 35, 51, 0.90)
+    }
+
+
+.menuButton{
+    width: 34px;
+    height: 34px;
+    position: fixed;
+    margin: 30px;
+    z-index: 1001;
+    padding: 10px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 20px;
+    transition: filter 0.3s ease;
+}
+
+.menuButton:hover{
+    filter: invert(100%)
+}
+
+.menuButtonCroix{
+    filter: invert(100%)
+}
+
