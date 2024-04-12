@@ -4,14 +4,11 @@
 
 .menuglobal{
     display: inline-flex;
+    justify-content: center;
     padding: 30px;
     background-color: rgba(32, 122, 47, 0.719);
 }
 
 .menu{
     padding-left: 20px;
-}
-
-.LienMenu{
-    
 }
