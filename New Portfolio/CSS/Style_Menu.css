@@ -16,6 +16,17 @@
     background-color: rgba(35, 35, 51, 0.90)
     }
 
+.lienmenu{
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+}
+
+.lienmenu:hover{
+    color: black;
+}
 
 .menuButton{
     width: 34px;
@@ -27,13 +38,14 @@
     background-color: rgb(250, 250, 250);
     border-radius: 20px;
     transition: filter 0.3s ease;
+    filter: invert(100%)
 }
 
 .menuButton:hover{
-    filter: invert(100%)
+    filter: invert(0%)
 }
 
-.menuButtonCroix{
-    filter: invert(100%)
-}
+
+
+
 
