@@ -1,3 +1,5 @@
+
+
 .hidden{
     display: none;
 }
@@ -13,22 +15,24 @@
     left: 0;
     justify-content: center;
     align-items: center;
-    background-color: rgba(35, 35, 51, 0.90)
+    background-color: rgba(38, 2, 61, 0.9);
     }
 
 .lienmenu{
     font-size: 100px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'roboto', sans-serif;
+    font-weight: 600;
     text-decoration: none;
     font-style: normal;
     color: white;
 }
 
 .lienmenu:hover{
-    color: black;
+    color: rgb(40, 145, 194);
 }
 
 .menuButton{
+    position: fixed;
     width: 34px;
     height: 34px;
     position: fixed;
@@ -44,7 +48,6 @@
 .menuButton:hover{
     filter: invert(0%)
 }
-
 
 
 
