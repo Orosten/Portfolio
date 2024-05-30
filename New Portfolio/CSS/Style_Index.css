@@ -1,40 +1,60 @@
+body {
+    background-image: url('../Asset/feuillev9.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
 
 h1{
-    font-family: 'roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-family: "Glass Antiqua", cursive;
     text-decoration: none;
-    font-weight: 700;
-    font-size: 90px;
-    color: rgb(38, 2, 61);
+    font-weight: 450;
+    font-size: 110px;
+    color: rgb(0, 2, 119);
+    margin: 0px;
 }
 
 h2{
-    font-family: 'roboto', sans-serif;
+    font-family: "Glass Antiqua", cursive;
     text-decoration: none;
-    font-weight: 700;
-    font-size: 40px;
-    color: rgb(38, 2, 61)
+    font-weight: 450;
+    font-size: 50px;
+    color: rgb(38, 2, 61);
+}
+
+.titreetudiant{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
 }
 
 h3{
     display: flex;
     justify-content: center;
-    font-family: 'roboto', sans-serif;
+    font-family: "Glass Antiqua", cursive;
     text-decoration: none;
-    font-weight: 300;
-    font-size: 50px;
-    opacity: 0.5;
-    color: rgb(2, 42, 61)
+    font-weight: 450;
+    font-size: 60px;
+    color: rgb(0, 2, 119);
+    margin-bottom: 0px;
+}
+
+.titreprésentation{
+    padding-top: 60px;
 }
 
 p{
     font-family: 'roboto', sans-serif;
     text-decoration: none;
     text-align: center;
-    font-weight: 350;
+    font-weight: 400;
     font-size: 30px;
 }
 
 .présentationGlobale{
+    margin-top: 600px;
     display: flex;
     flex-direction: column;
 }
