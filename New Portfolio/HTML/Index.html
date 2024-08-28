@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="../JS/Menu.js"></script>
+    <script src="../JS/index.js"></script>
 </head>
 
 <body>
@@ -38,53 +39,59 @@
 
         </div>
 
-
+        <div>
+            <h3>Mes certifications</h3>
+        </div>
+        
         <div class="présentationGlobale">
-
             <div>
                 <h3>le BTS SIO SLAM</h3>
             </div>
 
-            <div class="présentationBTS">
-                <h2>Qu'est ce que c'est ?</h2>
-                <p>Technicien Supérieur en Services Informatiques aux Organisations. <br>
+            <div class="présentationFilières">
+                <div class="présentationOption">
+                    <h2>C'est quoi ?</h2>
+                    <p class="hidden-text">Technicien Supérieur en Services Informatiques aux Organisations. <br>
                     c'est un diplôme de l'enseignement supérieur français<br> 
                     qui se prépare en deux ans après le baccalauréat, <br>
                     C'est une formation technique réalisable en alternance. <br>
                     Il existe deux options pour ce BTS :</p>
-            </div>
-
-
-            <div class="présentationFilières">
+                </div>
+            
+                <div class="présentationOption">
+                    <h2>Option SLAM</h2>
+                    <p class="hidden-text">Solutions Logicielles et Applications Métiers: <br>
+                    Cette option forme des techniciens spécialisés<br>
+                    dans le développement, la mise en œuvre et la <br>
+                    maintenance de logiciels et d'applications <br>
+                    adaptés aux besoins spécifiques des organisations.</p>
+                </div>
 
                 <div class="présentationOption">
                     <h2>Option SISR</h2>
-                    <p>Solutions d'Infrastructure, Systèmes et Réseaux: <br>
-                        Cette option forme des techniciens capables de <br>
-                        mettre en place et de gérer des infrastructures <br> 
-                        informatiques au sein d'une organisation, <br>
-                        que ce soit des réseaux, des serveurs, ou des systèmes.</p>
+                    <p class="hidden-text">Solutions d'Infrastructure, Systèmes et Réseaux: <br>
+                    Cette option forme des techniciens capables de <br>
+                    mettre en place et de gérer des infrastructures <br> 
+                    informatiques au sein d'une organisation, <br>
+                    que ce soit des réseaux, des serveurs, ou des systèmes.</p>
                 </div>
-
-                <div class="présentationOption">
-                    <h2>Option SLAM</h2>
-                    <p>Solutions Logicielles et Applications Métiers: <br>
-                        Cette option forme des techniciens spécialisés<br>
-                        dans le développement, la mise en œuvre et la <br>
-                        maintenance de logiciels et d'applications <br>
-                        adaptés aux besoins spécifiques des organisations.</p>
-                </div>
-
             </div>
         </div>
 
 
         <div>
             <h3>Contact</h3>
-            <p>contact etc etc etc </p>
-
-            <a class="cv">CV</a>
+            <p>Vous pouvez me contacter via LinkedIn ou consulter mon CV ci-dessous :</p>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/votreprofil" target="_blank" class="contact-link">
+                    <img src="../Asset/linkedin.png" alt="LinkedIn" title="LinkedIn" class="icon">
+                </a>
+                <a href="../Asset/CV.pdf" target="_blank" class="contact-link">
+                    <img src="../Asset/cv.png" alt="CV" title="CV" class="icon">
+                </a>
+            </div>
         </div>
+        
     </div>   
 
 </body>
