@@ -3,25 +3,40 @@
         <meta charset="UTF-8">
         <title>Réalisations</title>
         <link rel="stylesheet" href="../CSS/Style_Menu.css">
+        <link rel="stylesheet" href="../CSS/Style_Réalisations.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <script src="../JS/Menu.js"></script>
+        <script src="../JS/Réalisations.js"></script>
     </head>
 
     <body>
-        <div class="menuglobal">
 
-            <img class="menuButton" src="../Asset/menu.png" alt="Menu" title="Boutton Menu" onclick="OpenMenu()">
-    
-            <div class="menu hidden">
-                <a class="lienMenu" href="../HTML/Index.html">Acceuil</a>
-                <a class="lienMenu" href="../HTML/Entreprise.html">Entreprise</a>
-                <a class="lienMenu" href="../HTML/Réalisations.html">Réalisations</a>
-                <a class="lienMenu" href="../HTML/Veille.html">Veille</a>
-                <a class="lienMenu" href="../HTML/Bilan.html">Bilan</a>
+        <h1>Projet Réalisés</h1>
+
+
+        <div class="menuGlobal">
+            <div class="lienMenu">
+                <a href="../HTML/Index.html">Accueil</a>
+                <a href="../HTML/Entreprise.html">Entreprise</a>
+                <a href="../HTML/Réalisations.html">Réalisations</a>
+                <a href="../HTML/Veille.html">Veille</a>
+                <a href="../HTML/Bilan.html">Bilan</a>
             </div>
-    
         </div>
+
+        <div class="button-container">
+            <a class="button1 button buttonactif" onclick=button() >En formation</a>
+            <a class="button2 button" onclick=button() >En entreprise</a>
+        </div>
+
+        <div class="formation">
+            <p>projet formation</p>
+        </div>
+
+        <div class="entreprise hidden">
+            <p>projet entreprise</p>
+        </div>
+
     </body>
 </html>

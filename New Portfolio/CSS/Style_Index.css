@@ -17,38 +17,31 @@ h1 {
     margin: 0;
 }
 
-h2{
-    font-family: "Glass Antiqua", cursive;
-    text-decoration: none;
-    font-weight: 450;
-    font-size: 50px;
-    color: rgb(64, 3, 92);
-}
-
 .presentation {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0px; 
     margin-bottom: 40px; 
+    margin-top: 20px;
 }
 
 .titreetudiant {
-    font-family: "Glass Antiqua", cursive;
+    font-family: "Glass Antiqua", sans-serif;
     text-decoration: none;
     font-weight: 450;
     font-size: 50px;
-    color: rgb(38, 2, 61);
+    color: rgb(101, 143, 67);
     margin: 0;
 }
 
 h3{
     display: flex;
     justify-content: center;
-    font-family: "Glass Antiqua", cursive;
+    font-family: "Glass Antiqua", sans-serif;
     text-decoration: none;
     font-weight: 450;
-    font-size: 60px;
+    font-size: 50px;
     color: rgb(0, 7, 75);
     margin-bottom: 0px;
 }
@@ -60,7 +53,7 @@ h3{
 .presentation {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Ajouté pour espacer le titre et le logo */
+    justify-content: center;
     margin-bottom: 40px;
 }
 
@@ -70,11 +63,14 @@ h3{
 }
 
 .logo {
-    height: 240px; 
+    right: 0;
+    position: absolute;
+    height: 180px; 
     border-radius: 90px;
     border-width: 2px;
     border-style: solid;
     border-color: rgb(239,230,201);
+    margin: 50px;
 }
 
 p{
@@ -127,13 +123,21 @@ p{
     margin-top: 20px;
 }
 
+h2{
+    font-family: "Glass Antiqua", cursive;
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 40px;
+    color: rgb(101, 143, 67);
+}
+
 .présentationOption:hover h2 {
     font-family: "Glass Antiqua", cursive;
     text-decoration: none;
     font-weight: 450;
-    font-size: 50px;
-    color: rgba(75, 33, 95, 0.849); 
-    text-shadow: 2px -1px 7px rgba(136, 109, 153, 0.86);
+    font-size: 40px;
+    color: rgb(101, 143, 67); 
+    text-shadow: 2px -1px 7px rgb(101, 143, 67);
     transition: color 0.2s ease, text-shadow 0.2s ease;
     cursor: default;
 }

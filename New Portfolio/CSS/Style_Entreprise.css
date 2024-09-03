@@ -11,8 +11,8 @@ body {
     background-color: rgb(204,22,63);
     color: rgb(239,230,201);
     text-align: center;
-    padding: 40px 0;
-    margin-bottom: 40px;
+    padding: 0px 0;
+    margin-bottom: 10px;
 }
 
 .header h1 {
