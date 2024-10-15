@@ -1,0 +1,14 @@
+PAGE Entreprise.
+
+Présentation de l'entreprise. 
+-société américaine anciennement Allan bradley
+-secteur d'activité
+-nombre de salarié -> dans XX bureau
+
+icone terre ->Salarié dans XX bureau
+
+icone robot ->société américaine anciennement Allan bradley/secteur d'activité
+
+-Ma place dans l'entreprise. 
+-mon équipe
+-mes missions

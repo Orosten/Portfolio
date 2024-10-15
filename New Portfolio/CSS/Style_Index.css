@@ -59,7 +59,7 @@ h3{
 
 .title-container {
     text-align: center;
-    flex-grow: 1; /* Pour centrer le texte au milieu */
+    flex-grow: 1; 
 }
 
 .logo {

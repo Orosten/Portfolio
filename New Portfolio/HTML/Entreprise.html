@@ -7,6 +7,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <script src="../JS/Menu.js"></script>
+        <script src="../JS/Entreprise.js"></script>
     </head>
 
     <body>
@@ -25,12 +26,62 @@
             </div>
         </div>
         
+        <h3>Présentation de l'entreprise</h3>
+
         <div class="infoRA">
-            <h3>Présentation</h3>
+
+            <div class="infoSpecifiques1" onclick=Afficher(1)>
+                <img class="iconInfoRA" src="../Asset/arm.png" title="Icones">
+            </div>
+
+            <div class="infoSpecifiques2" onclick=Afficher(2)>
+                <img class="iconInfoRA" src="../Asset/earth.png" title="Icones">
+            </div>
+
+        </div>
+
+        <div class="contentRA">
+
+            <div class="infoSpeContent1 hidden">
+                <h2>Secteur d'Activité</h2>
+
+                <ul class="listIcon">
+                    <li><img class="iconContent" src="../Asset/secteur.png" > Rockwell Automation, Inc.</li>
+                    <li><img class="iconCont" src="../Asset/date.png" > Fondée en 1903 sous le nom d'Allen-Bradley.</li>
+                    <li><img class="iconContent" src="../Asset/epingle.png" > Milwaukee, Wisconsin, États-Unis.</li>
+                </ul>
+
+                <img class="imgAllen" src="../Asset/allenbradley.png">
+                <p class="descriptionImgAllen">Solutions d'automatisation Rockwell Automation</p>
+
+                <p class="secteurActivite">Leader mondial dans le domaine de l'automatisation industrielle, <br>
+                    proposant des solutions qui aident les entreprises à automatiser <br>
+                    et optimiser leurs processus de fabrication.</p>
+
+            </div>
+
+
+            <div class="infoSpeContent2 hidden">
+                <h2>Info générales</h2>
+
+                <ul class="listIcon">
+                    <li><img class="iconContent" src="../Asset/groupe.png"> 21 000 Salariés</li>
+                    <li><img class="iconCont" src="../Asset/voyager.png" > 80 Pays</li>
+                    <li><img class="iconContent" src="../Asset/epingle.png" > Milwaukee, Wisconsin, États-Unis.</li>
+                </ul>
+
+                <img class="imgAllen" src="../Asset/siegeSocial.jpg">
+                <p class="descriptionImgAllen">Solutions d'automatisation Rockwell Automation</p>
+
+                <p class="secteurActivite">Leader mondial dans le domaine de l'automatisation industrielle, <br>
+                    proposant des solutions qui aident les entreprises à automatiser <br>
+                    et optimiser leurs processus de fabrication.</p>
+            </div>
+
         </div>
 
         <div class="moiChezRA">
-
+            <h3>Ma place dans l'entreprise</h3>
         </div>
 
     </body>
