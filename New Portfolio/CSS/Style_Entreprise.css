@@ -28,8 +28,7 @@ h2 {
     font-weight: 450;
     font-size: 50px;
     color: rgb(101, 143, 67);
-    margin: 0; 
-    margin-bottom: 26px; 
+    margin: 55px;
 }
 
 h3{
@@ -37,10 +36,10 @@ h3{
     justify-content: center;
     font-family: "Glass Antiqua", sans-serif;
     text-decoration: none;
-    font-weight: 350;
-    font-size: 35px;
+    font-weight: 420;
+    font-size: 43px;
     color: rgb(0, 7, 75);
-    margin-bottom: 0px;
+    margin: 15px;
 }
 
 .hidden{
@@ -61,7 +60,8 @@ h3{
 }
 
 .infoRA{
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly
@@ -69,7 +69,7 @@ h3{
 
 .infoSpecifiques1, .infoSpecifiques2{
     border: 3px, solid, rgb(0, 7, 75);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 23px;
     transition: background-color 0.3s ease;
 }
@@ -104,16 +104,16 @@ li{
 }
 
 .infoSpeContent1, .infoSpeContent2{
-    background-color: rgb(247, 237, 208);;
-    margin-left: 160px;
-    margin-right: 160px;
+    background-color: #f4e6be;
+    margin-left: 240px;
+    margin-right: 240px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     margin-top: 10px;
     justify-content: center;
     border: 3px, solid, rgb(0, 7, 75);
-    border-radius: 5px;
+    border-radius: 5px;  
 }
 
 .imgAllen{
@@ -134,8 +134,10 @@ li{
 }
 
 .secteurActivite{
+    padding: 15px;
     text-align: right;
     margin-right: 25px;
+    padding-bottom: 25px;
 }
 
 .iconContent{
@@ -156,6 +158,74 @@ li{
 .listIcon{
     padding-bottom: 50px;
 }
+
+.moiChezRA{
+    background-color: #f4e6be;
+    margin-left: 240px;
+    margin-right: 240px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: center;
+    border: 3px, solid, rgb(0, 7, 75);
+    border-radius: 5px;
+}
+
+.iconEquipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px;
+    padding: 0;
+}
+
+.person{
+    background-color: rgba(101, 143, 67, 0.226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px, solid, rgb(0, 7, 75);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 0;
+}
+
+.imgEquipe{
+    height: 150px;
+    width: 150px;
+}
+
+.infoEquipe{
+    background-color: #f4e6be;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2.5px, solid, rgb(0, 7, 75);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.nomEquipe{
+    color: rgb(0, 7, 75);
+    font-family: 'roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 22px;
+    margin: 5;
+}
+
+.fonctionEquipe{
+    font-family: 'roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 5;
+}
+
 
 
 
