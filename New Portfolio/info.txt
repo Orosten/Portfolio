@@ -12,3 +12,11 @@ icone robot ->société américaine anciennement Allan bradley/secteur d'activit
 -Ma place dans l'entreprise. 
 -mon équipe
 -mes missions
+
+
+Acceuil
+-Moi
+-parcours
+-mes compétences
+-Mes certifications
+-Contact
