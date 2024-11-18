@@ -30,3 +30,31 @@ Extra-scolaire
 
 -L'armandie Barman, préparations et prises de commande
 -Technicien Audiovisuel Evenementiel, Concert bercy Youssou N'dour 
+
+Entreprise.
+-Mes missions
+
+1. CRM : Microsoft Dynamics
+
+Gestion des Engagement Requests (demandes d'engagement).
+Configuration et maintenance des dashboards (tableaux de bord).
+Maintenance et gestion du routing (système d'acheminement)
+Entretien des informations sur les opportunités (excel)
+
+2. Support Quotidien
+
+Assistance aux utilisateurs pour résoudre les problèmes liés :
+Au routing des Engagement Requests.
+Aux dashboards et rapports.
+Aux informations sur les opportunités.
+Réponses aux demandes spécifiques pour personnaliser les outils en fonction des besoins.
+
+4. Développement d'Outils
+
+Conception et design de nouveaux outils complémentaires pour améliorer les processus existants.
+Réflexion sur des solutions innovantes adaptées aux besoins des utilisateurs.
+
+5. Préparation à la Transition vers Salesforce
+
+Participation active à la transition des systèmes CRM vers Salesforce.
+Préparation de la migration en ajustant les outils existants et en développant des solutions pour faciliter l'adoption.
