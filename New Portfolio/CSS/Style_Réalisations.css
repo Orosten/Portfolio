@@ -16,8 +16,25 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 0px;
-    margin-bottom: 63px; 
-    margin-top: 63px; 
+    margin: 59px; 
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    font-family: "roboto", sans-serif;
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 28px;
+    color: rgb(0, 7, 75);
+    margin: 10px;
+}
+
+p{
+    font-family: 'roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 26px;
 }
 
 h2 {
@@ -28,7 +45,7 @@ h2 {
     font-weight: 450;
     font-size: 50px;
     color: rgb(101, 143, 67);
-    margin: 0; 
+    margin: 55px;
 }
 
 h3{
@@ -36,85 +53,99 @@ h3{
     justify-content: center;
     font-family: "Glass Antiqua", sans-serif;
     text-decoration: none;
-    font-weight: 350;
-    font-size: 35px;
+    font-weight: 420;
+    font-size: 43px;
     color: rgb(0, 7, 75);
-    margin-bottom: 0px;
-}
-
-.button-container {
-    display: flex;
-    justify-content: center;
-    gap: 350px;
-    margin-top: 40px;
-}
-
-.button {
-    color: rgb(0, 7, 75);
-    padding: 15px 30px;
-    text-decoration: none;
-    font-family: "Glass Antiqua", cursive;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 30px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    text-align: center;
-    border: 2.5px solid rgb(0, 7, 75);
-}
-
-.button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
-    cursor: pointer;
-}
-
-.buttonactif{
-    background-color: rgba(101, 143, 67, 0.356);
+    margin: 15px;
 }
 
 .hidden{
     display: none !important;
 }
 
-.formation{
+.active{
+    background-color: rgba(101, 143, 67, 0.226);
+}
+
+.buttonContainer{
+    margin: 20px 650px;
+    padding: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin: 25px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
 }
 
-.case h3{
-    font-size: 1em;
-}
-
-.case{
+.buttonContainer a{
     display: flex;
-    flex-direction: column;
-    text-align: center;
     justify-content: center;
-    border: 2px, solid, rgb(0, 7, 75);;
-    border-radius: 15px;
+    font-family: "Glass Antiqua", sans-serif;
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 34px;
+    color: rgb(0, 7, 75);
+    margin: 10px;
+}
+
+.button1, .button2{
+    border: 3px, solid, rgb(0, 7, 75);
+    border-radius: 10px;
+    padding: 23px;
+    transition: background-color 0.3s ease;
+}
+
+.button1:hover, .button2:hover{
+background-color: rgba(101, 143, 67, 0.356);
+cursor: pointer;
+}
+
+.formation, .entreprise{
     background-color: #f4e6be;
-    height: 180px;
-    width: 180px;
-    margin: 20px;   
+    margin: 20px 260px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid rgb(0, 7, 75);
+    border-radius: 5px;
 }
 
-.case2{
+.cartouche{
     display: flex;
     flex-direction: column;
+    background-color: rgba(101, 143, 67, 0.226);
+    border: 3px solid rgb(0, 7, 75);
+    border-radius: 5px;
 }
 
-.imgCase{
+.imgProjet{
+    height: 150px;
+    width: 150px;
+    border: 1.5px, solid, rgb(0, 7, 75);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.star{
     display: flex;
-    justify-content: center;
-    text-align: center;
-    height: 80px;
-    width: 80px;
+    flex-direction: row;
 }
 
-.texteCase{
-    font-size: 0.9em;
+.iconStar{
+    height: 50px;
+    width: 50px;
 }
+
+.light{
+    background-color: gold;
+}
+
+
+.checked {
+    color: orange;
+  }
+
 
