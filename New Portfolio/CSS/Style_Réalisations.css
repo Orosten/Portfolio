@@ -114,38 +114,128 @@ cursor: pointer;
 }
 
 .cartouche{
+    height: 400px;
+    width: 300px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     background-color: rgba(101, 143, 67, 0.226);
     border: 3px solid rgb(0, 7, 75);
     border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cartouche:hover{
+    background-color: rgba(101, 143, 67, 0.356);
+    cursor: pointer;
 }
 
 .imgProjet{
-    height: 150px;
-    width: 150px;
-    border: 1.5px, solid, rgb(0, 7, 75);
+    height: 190px;
+    width: 280px;
+    border: 2.5px, solid, rgb(0, 7, 75);
     border-radius: 5px;
     margin: 0 auto;
 }
 
-.star{
+.cartouche p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    background-color: rgba(239, 230, 201, 0.945); 
+    border: 3px, solid, rgb(0, 7, 75);
+    border-radius: 10px;
+}
+
+
+.bouttonRetour a{
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 26;
+    color: rgb(0, 7, 75);
+    padding: 10px;
+    border: 2.5px, solid, rgb(0, 7, 75);
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 10px;
+    background-color: rgba(101, 143, 67, 0.226);
+    transition: background-color 0.3s ease;
+}
+
+.bouttonRetour a:hover{
+    background-color: rgba(101, 143, 67, 0.356);
+    cursor: pointer;
+}
+
+.boxContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 600px;
+}
+
+.boxContent p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 23px;
+}
+
+.allImgBox{
+    margin: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.iconStar{
-    height: 50px;
-    width: 50px;
+.imgBox{
+    height: 190px;
+    width: 280px;
+    border: 2.5px, solid, rgb(0, 7, 75);
+    border-radius: 5px;
+    margin: 10px;
 }
 
-.light{
-    background-color: gold;
+.lienBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
+.lienBox a{
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 26;
+    border: 2.5px, solid, rgb(0, 7, 75);
+    border-radius: 5px;
+    background-color: rgba(101, 143, 67, 0.226);
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    color: rgb(0, 7, 75);
+}
 
-.checked {
-    color: orange;
-  }
-
-
+.lienBox a:hover{
+    background-color: rgba(101, 143, 67, 0.356);
+    cursor: pointer;
+}
