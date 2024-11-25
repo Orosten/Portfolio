@@ -58,3 +58,8 @@ Réflexion sur des solutions innovantes adaptées aux besoins des utilisateurs.
 
 Participation active à la transition des systèmes CRM vers Salesforce.
 Préparation de la migration en ajustant les outils existants et en développant des solutions pour faciliter l'adoption.
+
+Réalisations.
+- Boutique roméo
+-JO tickets
+-Text adventure
