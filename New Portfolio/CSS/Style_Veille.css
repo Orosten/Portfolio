@@ -16,7 +16,7 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 0px;
-    margin-top: 32.5px; 
+    margin: 59px; 
 }
 
 h2 {
@@ -27,8 +27,7 @@ h2 {
     font-weight: 450;
     font-size: 50px;
     color: rgb(101, 143, 67);
-    margin: 0; 
-    margin-bottom: 32.5px; 
+    margin: 55px;
 }
 
 h3{
@@ -36,13 +35,103 @@ h3{
     justify-content: center;
     font-family: "Glass Antiqua", sans-serif;
     text-decoration: none;
-    font-weight: 350;
-    font-size: 35px;
+    font-weight: 420;
+    font-size: 43px;
     color: rgb(0, 7, 75);
-    margin-bottom: 0px;
+    margin: 15px;
 }
 
+h4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "roboto", sans-serif;
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 28px;
+    color: rgb(0, 7, 75);
+    margin: 10px;
+}
 
+.bloc { 
+    background-color: #f4e6be;
+    margin: 20px 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 3px solid rgb(0, 7, 75);
+    border-radius: 5px;
+}
 
+.bloc p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 23px;
+    font-family: 'roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+}
 
+.cartouche{
+    height: 550px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(101, 143, 67, 0.226);
+    border: 3px solid rgb(0, 7, 75);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
 
+.imgProjet{
+    height: 220px;
+    width: 310px;
+    border: 2.5px, solid, rgb(0, 7, 75);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.cartouche p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.cartouche h4{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lienBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lienBox a{
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 26;
+    text-decoration: none;
+    border: 2.5px, solid, rgb(0, 7, 75);
+    border-radius: 5px;
+    background-color: rgba(101, 143, 67, 0.226);
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    color: rgb(0, 7, 75);
+}
+
+.lienBox a:hover{
+    background-color: rgba(101, 143, 67, 0.356);
+    cursor: pointer;
+}

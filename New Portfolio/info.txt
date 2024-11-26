@@ -65,4 +65,6 @@ Réalisations.
 -Text adventure
 
 Entreprise
--
+- Customer Success Story
+- Entretien du routing
+- Création de dashboards
