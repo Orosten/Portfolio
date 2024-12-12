@@ -68,3 +68,8 @@ Entreprise
 - Customer Success Story
 - Entretien du routing
 - Création de dashboards
+
+
+A rajouter
+-onglet compétences
+-veille rajouter les outils utilisés pour la veille.
