@@ -73,3 +73,6 @@ Entreprise
 A rajouter
 -onglet compétences
 -veille rajouter les outils utilisés pour la veille.
+
+-Doc projet
+chahier des charges, extrait de code, correction bug, retour utilisations, 
