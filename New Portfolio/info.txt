@@ -86,3 +86,4 @@ TO do week end
 - Refonte de la veille
 - Certifications a actualiser
 - Ajout des compétences sur la page d'acceuil
+- Traduction Français/Anglais
