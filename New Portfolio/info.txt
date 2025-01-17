@@ -34,6 +34,8 @@ Extra-scolaire
 Entreprise.
 -Mes missions
 
+Interface entre User et dev, but principal
+
 1. CRM : Microsoft Dynamics
 
 Gestion des Engagement Requests (demandes d'engagement).
@@ -76,3 +78,11 @@ A rajouter
 
 -Doc projet
 chahier des charges, extrait de code, correction bug, retour utilisations, 
+
+-----------------------------------------------------------
+
+TO do week end
+- Réalisations document et projet a rentrer.
+- Refonte de la veille
+- Certifications a actualiser
+- Ajout des compétences sur la page d'acceuil
