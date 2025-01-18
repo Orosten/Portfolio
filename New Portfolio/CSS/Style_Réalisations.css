@@ -102,8 +102,8 @@ cursor: pointer;
 
 .formation, .entreprise{
     background-color: #f4e6be;
-    margin: 20px 260px;
-    padding: 20px;
+    margin: 20px 290px;
+    padding: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -123,6 +123,7 @@ cursor: pointer;
     border: 3px solid rgb(0, 7, 75);
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    margin: 10px;
 }
 
 .cartouche:hover{
@@ -215,6 +216,10 @@ cursor: pointer;
     border: 2.5px, solid, rgb(0, 7, 75);
     border-radius: 5px;
     margin: 10px;
+}
+
+.imgBox:hover{
+    border-color: rgba(101, 143, 67, 0.356);
 }
 
 .lienBox{

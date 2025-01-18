@@ -72,43 +72,84 @@ function retour(){
 }
 
 //ENTREPRISE
-function afficherProjetEntreprise(x){
+function afficherProjetEntreprise(x) {
 
-    let box1 = document.querySelector(".box1Entreprise")
-    let box2 = document.querySelector(".box2Entreprise")
-    let box3 = document.querySelector(".box3Entreprise")
+    let box1 = document.querySelector(".box1Entreprise");
+    let box2 = document.querySelector(".box2Entreprise");
+    let box3 = document.querySelector(".box3Entreprise");
+    let box4 = document.querySelector(".box4Entreprise");
+    let box5 = document.querySelector(".box5Entreprise");
+    let box6 = document.querySelector(".box6Entreprise");
 
-    if(x == 1){
+    if (x == 1) {
         box1.classList.remove("hidden");
         box2.classList.add("hidden");
         box3.classList.add("hidden");
-    } else if (x == 2){
+        box4.classList.add("hidden");
+        box5.classList.add("hidden");
+        box6.classList.add("hidden");
+    } else if (x == 2) {
         box1.classList.add("hidden");
         box2.classList.remove("hidden");
         box3.classList.add("hidden");
-    } else if (x == 3){
+        box4.classList.add("hidden");
+        box5.classList.add("hidden");
+        box6.classList.add("hidden");
+    } else if (x == 3) {
         box1.classList.add("hidden");
         box2.classList.add("hidden");
         box3.classList.remove("hidden");
-    } else{
-        alert("No condition matches for box toggle")
+        box4.classList.add("hidden");
+        box5.classList.add("hidden");
+        box6.classList.add("hidden");
+    } else if (x == 4) {
+        box1.classList.add("hidden");
+        box2.classList.add("hidden");
+        box3.classList.add("hidden");
+        box4.classList.remove("hidden");
+        box5.classList.add("hidden");
+        box6.classList.add("hidden");
+    } else if (x == 5) {
+        box1.classList.add("hidden");
+        box2.classList.add("hidden");
+        box3.classList.add("hidden");
+        box4.classList.add("hidden");
+        box5.classList.remove("hidden");
+        box6.classList.add("hidden");
+    } else if (x == 6) {
+        box1.classList.add("hidden");
+        box2.classList.add("hidden");
+        box3.classList.add("hidden");
+        box4.classList.add("hidden");
+        box5.classList.add("hidden");
+        box6.classList.remove("hidden");
+    } else {
+        alert("No condition matches for box toggle");
     }
-
 }
 
-function retourEntreprise(){
-        
-    let box1 = document.querySelector(".box1Entreprise")
-    let box2 = document.querySelector(".box2Entreprise")
-    let box3 = document.querySelector(".box3Entreprise")
+function retourEntreprise() {
 
-    if(!box1.classList.contains("hidden")){
+    let box1 = document.querySelector(".box1Entreprise");
+    let box2 = document.querySelector(".box2Entreprise");
+    let box3 = document.querySelector(".box3Entreprise");
+    let box4 = document.querySelector(".box4Entreprise");
+    let box5 = document.querySelector(".box5Entreprise");
+    let box6 = document.querySelector(".box6Entreprise");
+
+    if (!box1.classList.contains("hidden")) {
         box1.classList.add("hidden");
-    } else if(!box2.classList.contains("hidden")){
+    } else if (!box2.classList.contains("hidden")) {
         box2.classList.add("hidden");
-    } else if(!box3.classList.contains("hidden")){
+    } else if (!box3.classList.contains("hidden")) {
         box3.classList.add("hidden");
+    } else if (!box4.classList.contains("hidden")) {
+        box4.classList.add("hidden");
+    } else if (!box5.classList.contains("hidden")) {
+        box5.classList.add("hidden");
+    } else if (!box6.classList.contains("hidden")) {
+        box6.classList.add("hidden");
     } else {
-        console.log("pas de hidden a retiré")
+        console.log("Pas de hidden à retirer");
     }
 }
