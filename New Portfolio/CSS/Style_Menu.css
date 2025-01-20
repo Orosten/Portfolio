@@ -40,6 +40,32 @@
     text-shadow: 2px 2px 5px rgb(180, 180, 180);
 }
 
+.buttonENG{
+    border: 1px solid rgb(0, 7, 75);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
 
+.buttonENG:hover{
+    background-color: rgba(101, 143, 67, 0.226);
+    cursor: pointer;
+}
 
+.buttonFRA{
+    border: 1px solid rgb(0, 7, 75);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
 
+.buttonFRA:hover{
+    background-color: rgba(101, 143, 67, 0.226);
+    cursor: pointer;
+}
+
+.imgFlag{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+}
