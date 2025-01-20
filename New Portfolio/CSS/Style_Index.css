@@ -140,6 +140,7 @@ h2 {
     align-items: center;
     border: 3px solid rgb(0, 7, 75);
     border-radius: 5px;
+    flex-wrap: wrap;
 }
 
 .elementParcours{
@@ -231,4 +232,20 @@ h4 {
    margin: 20px;
    height: 150px;
    width: 150px;
+}
+
+/**COMPETENCES**/
+
+.imgCompétences{
+    height: 130px;
+    width: 130px;
+    border: 2.5px, solid, rgb(0, 7, 75);
+    border-radius: 5px;
+    padding: 7px;
+    margin: 7px;
+    transition: background-color 0.3s ease;
+}
+
+.imgCompétences:hover{
+    background-color:rgba(101, 143, 67, 0.356);
 }
