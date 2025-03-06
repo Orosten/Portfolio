@@ -30,44 +30,83 @@ function button(x){
 }
 
 //FORMATION
-function afficherProjet(x){
+function afficherProjet(x) {
+    let box1 = document.querySelector(".box1");
+    let box2 = document.querySelector(".box2");
+    let box3 = document.querySelector(".box3");
+    let box4 = document.querySelector(".box4");
+    let box5 = document.querySelector(".box5");
+    let box6 = document.querySelector(".box6");
 
-    let box1 = document.querySelector(".box1")
-    let box2 = document.querySelector(".box2")
-    let box3 = document.querySelector(".box3")
-
-    if(x == 1){
+    if (x == 1) {
         box1.classList.remove("hidden");
         box2.classList.add("hidden");
         box3.classList.add("hidden");
-    } else if (x == 2){
+        box4.classList.add("hidden");
+        box5.classList.add("hidden");
+        box6.classList.add("hidden");
+    } else if (x == 2) {
         box1.classList.add("hidden");
         box2.classList.remove("hidden");
         box3.classList.add("hidden");
-    } else if (x == 3){
+        box4.classList.add("hidden");
+        box5.classList.add("hidden");
+        box6.classList.add("hidden");
+    } else if (x == 3) {
         box1.classList.add("hidden");
         box2.classList.add("hidden");
         box3.classList.remove("hidden");
-    } else{
-        alert("No condition matches for box toggle")
+        box4.classList.add("hidden");
+        box5.classList.add("hidden");
+        box6.classList.add("hidden");
+    } else if (x == 4) {
+        box1.classList.add("hidden");
+        box2.classList.add("hidden");
+        box3.classList.add("hidden");
+        box4.classList.remove("hidden");
+        box5.classList.add("hidden");
+        box6.classList.add("hidden");
+    } else if (x == 5) {
+        box1.classList.add("hidden");
+        box2.classList.add("hidden");
+        box3.classList.add("hidden");
+        box4.classList.add("hidden");
+        box5.classList.remove("hidden");
+        box6.classList.add("hidden");
+    } else if (x == 6) {
+        box1.classList.add("hidden");
+        box2.classList.add("hidden");
+        box3.classList.add("hidden");
+        box4.classList.add("hidden");
+        box5.classList.add("hidden");
+        box6.classList.remove("hidden");
+    } else {
+        alert("No condition matches for box toggle");
     }
-
 }
 
-function retour(){
-        
-    let box1 = document.querySelector(".box1")
-    let box2 = document.querySelector(".box2")
-    let box3 = document.querySelector(".box3")
+function retour() {
+    let box1 = document.querySelector(".box1");
+    let box2 = document.querySelector(".box2");
+    let box3 = document.querySelector(".box3");
+    let box4 = document.querySelector(".box4");
+    let box5 = document.querySelector(".box5");
+    let box6 = document.querySelector(".box6");
 
-    if(!box1.classList.contains("hidden")){
+    if (!box1.classList.contains("hidden")) {
         box1.classList.add("hidden");
-    } else if(!box2.classList.contains("hidden")){
+    } else if (!box2.classList.contains("hidden")) {
         box2.classList.add("hidden");
-    } else if(!box3.classList.contains("hidden")){
+    } else if (!box3.classList.contains("hidden")) {
         box3.classList.add("hidden");
+    } else if (!box4.classList.contains("hidden")) {
+        box4.classList.add("hidden");
+    } else if (!box5.classList.contains("hidden")) {
+        box5.classList.add("hidden");
+    } else if (!box6.classList.contains("hidden")) {
+        box6.classList.add("hidden");
     } else {
-        console.log("pas de hidden a retiré")
+        console.log("pas de hidden à retirer");
     }
 }
 
