@@ -1,0 +1,15 @@
+{
+    "builds": [
+      {
+        "src": "New Portfolio/HTML/index.html",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "New Portfolio/HTML/index.html"
+      }
+    ]
+  }
+  
