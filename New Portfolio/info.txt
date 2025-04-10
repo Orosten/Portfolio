@@ -81,9 +81,3 @@ chahier des charges, extrait de code, correction bug, retour utilisations,
 
 -----------------------------------------------------------
 
-TO do week end
-- Réalisations document et projet a rentrer.
-- Refonte de la veille
-- Certifications a actualiser
-- Ajout des compétences sur la page d'acceuil
-- Traduction Français/Anglais
