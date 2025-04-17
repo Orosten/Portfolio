@@ -68,11 +68,11 @@ h3{
 }
 
 .buttonContainer{
-    margin: 20px 650px;
+    margin: 20px auto;
     padding: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border-radius: 5px;
 }

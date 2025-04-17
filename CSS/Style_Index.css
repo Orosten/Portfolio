@@ -98,36 +98,39 @@ h2 {
 /*BLOC PRINCIPAUX*/
 .infoGabriel { 
     background-color: #f4e6be;
-    margin: 20px 260px;
+    margin: 20px auto;
     padding: 20px;
+    max-width: 1000px;
+    width: 90%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     border: 3px solid rgb(0, 7, 75);
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
 .infoGabriel p {
-    display: flex;
-    justify-content: flex-start;
-    margin-right: 5px;
+    margin: 15px 10px;
+    flex: 1 1 200px;
 }
 
 .infoGab {
     color: rgb(101, 143, 67);
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: auto;
-    padding-left: 130px;
+    margin: 5px 0;
+    padding-left: 20px;
 }
 
-.gabJPG{
+.gabJPG {
     height: auto;
-    width: 450px;
-    border: 2.5px, solid, rgb(0, 7, 75);
+    width: 100%;
+    max-width: 450px;
+    border: 2.5px solid rgb(0, 7, 75);
     border-radius: 10px;
-    margin: 5 auto;
+    margin: 5px auto;
+    display: block;
 }
 
 .infoParcours { 
@@ -237,8 +240,8 @@ h4 {
 /**COMPETENCES**/
 
 .imgCompétences{
-    height: 130px;
-    width: 130px;
+    height: 110px;
+    width: 110px;
     border: 2.5px, solid, rgb(0, 7, 75);
     border-radius: 5px;
     padding: 7px;

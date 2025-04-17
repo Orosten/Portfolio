@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(239,230,201);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+h1 {
+    font-family: "Glass Antiqua", cursive;
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 70px;
+    color: rgb(0, 7, 75);
+    margin: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    margin: 29px; 
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Glass Antiqua", sans-serif;
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 50px;
+    color: rgb(101, 143, 67);
+    margin: 25px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-family: "Glass Antiqua", sans-serif;
+    text-decoration: none;
+    font-weight: 420;
+    font-size: 43px;
+    color: rgb(0, 7, 75);
+    margin: 15px;
+}
+
+h4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "roboto", sans-serif;
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 28px;
+    color: rgb(0, 7, 75);
+    margin: 10px;
+}
+
