@@ -45,11 +45,95 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-family: "roboto", sans-serif;
+    font-family: "Glass Antiqua", sans-serif;
     text-decoration: none;
     font-weight: 450;
-    font-size: 28px;
+    font-size: 35px;
     color: rgb(0, 7, 75);
     margin: 10px;
 }
 
+p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 23px;
+    font-family: 'roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.bloc { 
+    background-color: #f4e6be;
+    margin: 20px 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 3px solid rgb(0, 7, 75);
+    border-radius: 5px;
+}
+
+.blocProjet{
+    background-color: #f4e6be;
+    margin: 20px 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 3px solid rgb(0, 7, 75);
+    border-radius: 5px;
+}
+
+.bloc p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 23px;
+    font-family: 'roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.imgStudio{
+    height: 370px;
+    width: 740px;
+    border: 2.5px, solid, rgb(0, 7, 75);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+/**Cartes**/
+.hidden{
+    display: none;
+}
+
+.carte{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 3px solid rgb(0, 7, 75);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.carte:hover{
+    background-color: rgba(101, 143, 67, 0.356);
+    cursor: pointer;
+}
+
+.carte h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Glass Antiqua", sans-serif;
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 35px;
+    color: rgb(101, 143, 67);
+    margin: 25px;
+}
